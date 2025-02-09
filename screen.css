@@ -1,4 +1,74 @@
-/* Add screen styles below */
+
 a.active {
     font-weight: bold;
+}
+
+body {
+    background: #FFFFFF;
+    margin-top: 1px;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+}
+
+.card div {
+    padding: 100px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF; 
+}
+
+h1.name {
+    text-align: left;
+    background-color: #635f8c; 
+    color: #FFFFFF; 
+    padding: 20px;
+    font-size: 48px;
+}
+
+
+.intro-container {
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 48px; 
+}
+
+.intro-container h1 {
+    color: #FFFFFF; 
+    font-size: 48px; 
+    line-height: 1.5; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+}
+
+
+.content {
+    display: flex;
+    align-items: center; 
+    margin-top: -50px;
+}
+
+
+.about-container h2 {
+    color: #FFFFFF;
+    font-size: 36px; 
+}
+
+#rolee {
+    color: #FFFFFF; 
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6; 
+    max-width: 400px; 
+    margin-top: 10px; 
 }
